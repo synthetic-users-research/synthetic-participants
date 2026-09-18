@@ -18,24 +18,29 @@ Not published yet.
 ## Dataset
 
 The [full dataset](./assets/dataset.csv) including 182 research publications contains bibliographic data and relevant data extraction fields:
-- title, authors and year of publication
+- title of the publication
+- publication authors
+- year of publication
 - publication type (article, conference or preprint)
-- venue (journal or conference name) and publisher
+- venue (journal or conference name)
+- publisher name
 - volume/number/pages
-- URL, doi
-- abstract and keywords
+- doi identifier
+- abstract
+- keywords
 - source (query or reference search)
 - quality indicator
 - citation count
 - extracted fields: 
   - domain (e.g. Healthcare)
   - task type (e.g. Questionnaire Simulation)
-  - models (e.g. GPT)
-  - model parameters (e.g. temperature)
-  - prompting strategies (e.g. zero-shot)
-  - prompting approach (e.g. single-persona)
-  - response type (e.g. tabular data)
-  - human data (e.g. dataset, experiment)
+  - LLM models utilized in the publication (e.g. GPT)
+  - model runtime parameters (e.g. temperature)
+  - prompting strategies utilized by authors (e.g. zero-shot)
+  - prompting approach used by authors (e.g. single-persona)
+  - response type of the results (e.g. tabular data)
+  - human data results were compared to (e.g. dataset, experiment)
+  - identified LLM-related issues
 
 ## Extended results
 
